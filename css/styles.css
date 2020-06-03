@@ -1,0 +1,45 @@
+/* Fonts | Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: #ccc;
+  padding: 32px;
+  color: black;
+  position: sticky;
+  top: 0;
+}
+
+header > h1 {
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.content {
+  width: 90%;
+  max-width: 900px;
+  margin: 3rem auto 0;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  line-height: 2em;
+  font-weight: 300;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  width: 35%;
+  float: right;
+}
