@@ -5,6 +5,7 @@ Responsive UI has been important now than never before. The screens that we brow
 ### Contents
 
 - The Man I Admire (Robert Frost)
+- Article Layout w/ Flex
 
 ### Instructions
 
