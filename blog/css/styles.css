@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap");
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -175,6 +175,13 @@ nav a:focus {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+footer {
+  background-color: #143774;
+  color: #fff;
+  text-align: center;
+  padding: 3em 0;
 }
 
 /* Media Queries */
