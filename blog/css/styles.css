@@ -12,6 +12,13 @@ img {
   max-width: 100%;
 }
 
+.img-about {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin: 2em 0;
+}
+
 .container {
   width: 90%;
   max-width: 900px;
@@ -45,6 +52,10 @@ h3 {
 h1 {
   margin: 0;
   font-size: 3.75rem;
+}
+
+.last-div {
+  margin-bottom: 3em;
 }
 
 .header p {
