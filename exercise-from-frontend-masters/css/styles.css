@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-  width: 980px;
+  max-width: 980px;
+  width: 95%;
   margin: auto;
 }
 
@@ -115,4 +116,20 @@ footer {
   padding-top: 2em;
   font-size: 1em;
   font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .headline {
+    font-size: 1.6em;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .secondary-news,
+  .primary-news,
+  aside {
+    width: 100%;
+    margin-top: 1em;
+  }
 }
